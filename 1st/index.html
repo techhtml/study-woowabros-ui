@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+  - Document type
+  - 작성 중인 HTML 버전
+  - DOCTYPE을 생략하면 명시적으로 레거시 코드
+  - DOCTYPE html => 가장 최신버전 (HTML 5.1)
+  - DOCTYPE을 작성하지 않은 브라우저 해석 방식 
+    => quirks mode
+  - DOCTYPE을 작성하면
+    => standard mode
+  -->
+<!--
+  - HTML 요소 (Element)
+  - html 요소 (태그)
+  - 여는 태그 <html>
+  - 닫는 태그 </html>
+  - id 속성
+    - 중복 불가능, 한 웹페이지 내에서 한번만 사용 가능
+  - class 속성
+    - CSS를 넣기위해 사용하는 속성
+  - lang 속성
+    - 언어셋
+    - ko(한국어)
+ -->
+<html lang="ko">
+  <!--
+    - head 요소가 두뇌
+    -->
+  <head>
+    <!--
+      - 이 웹페이지의 캐릭터 셋
+      - UTF-8 (모든 유니코드 문자 표현 가능)
+      - EUC-KR (한글 완성형 문자 2350자)
+      - https://www.w3.org/TR/encoding/#utf-8
+      -->
+    <meta charset="UTF-8">
+    <!--
+      - title
+      -->
+    <title>스터디 101</title>
+    <!--
+      - viewport
+      - 모바일 (필수)
+      - 모바일 Safari에 아무것도 안하고 웹사이트를 들어가면
+      - 940px~1000px정도의 가로사이즈를 기준으로 페이지를 보여줌
+      - 모바일 브라우저로 우리 웹사이트를 들어왔을 때,
+      - 기본배율, 가로 사이즈, 최대 확대 비율
+      - initial-scale : 초기확대값
+      - maximum-scale : 최대
+      - minimum-scale : 최소
+      - user-scaleble : 유저가 확대/축소를 사용 가능하게 할 지
+      - width : 숫자값, 실제 크기
+      -->
+    <meta name="viewport" content="initial-scale=1, 
+    width=device-width">
+  </head>
+  <!--
+    - 실제로 보여질 HTML 콘텐츠
+    -->
+  <body>1234</body>
+</html>
